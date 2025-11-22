@@ -1,0 +1,11 @@
+25-09-21 15:42:01.759 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505 
+25-09-21 15:42:01.764 [http-nio-8080-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.UK_R43AF9AP4EDM43MMTQ01ODDJ6_INDEX_4 ON PUBLIC.USERS(USERNAME NULLS FIRST) VALUES ( /* 1 */ 'Shubhomoy' )"; SQL statement:
+insert into users (id, email, password, sentiment_analysis, username) values (default, ?, ?, ?, ?) [23505-214] 
+25-09-21 15:42:28.795 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported] 
+25-09-21 15:42:44.053 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+25-09-21 15:42:44.056 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+25-09-21 15:42:44.081 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+25-09-21 15:42:44.089 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+25-09-21 15:42:58.285 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final 
+25-09-21 15:42:58.375 [main] INFO  n.e.journalApp.JournalApplication - Starting JournalApplication using Java 21.0.8 on DESKTOP-FAL38PC with PID 16504 (C:\Users\user\Desktop\Journal-App\target\classes started by user in C:\Users\user\Desktop\Journal-App) 
+25-09-21 15:42:58.378 [main] INFO  n.e.journalApp.JournalApplication - The following 1 profile is active: "dev" 
