@@ -25,18 +25,3 @@ Build Tool: Maven
 
 API Testing: Postman 
 
-📂 Project Structure
-Journal-Management-System/
-│── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/example/journal/
-│   │   │       ├── controller/
-│   │   │       ├── service/
-│   │   │       ├── repository/
-│   │   │       └── model/
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── static/
-│── pom.xml / build.gradle
-│── README.md
